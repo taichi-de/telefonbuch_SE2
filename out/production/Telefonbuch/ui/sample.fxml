@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="-3.0" layoutY="53.0" opacity="0.15" prefHeight="347.0" prefWidth="609.0" style="-fx-background-color: blue;">
+         <children>
+            <TableView fixedCellSize="1.0" layoutX="14.0" layoutY="14.0" prefHeight="287.0" prefWidth="580.0">
+              <columns>
+                <TableColumn prefWidth="294.0" text="C1" />
+                <TableColumn prefWidth="285.0" text="C2" />
+              </columns>
+            </TableView>
+            <Button layoutX="466.0" layoutY="306.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="106.0" text="Delete" />
+         </children>
+      </AnchorPane>
+      <Button layoutX="469.0" layoutY="15.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="106.0" text="Add" />
+      <Label layoutX="24.0" layoutY="14.0" prefHeight="17.0" prefWidth="106.0" text="AdresSook">
+         <font>
+            <Font name="AppleMyungjo Regular" size="22.0" />
+         </font>
+      </Label>
+      <TextField layoutX="308.0" layoutY="15.0" prefHeight="27.0" prefWidth="153.0" text="Phone" />
+      <TextField layoutX="147.0" layoutY="15.0" prefHeight="27.0" prefWidth="153.0" text="Name" />
+   </children>
+</AnchorPane>

@@ -10,16 +10,16 @@ import java.util.logging.Filter;
 
 public class TelefonBook {
 
-    private final ObservableList<TelefonEntry> observableList = FXCollections.observableList(new ArrayList<>());
-    private final FilteredList<TelefonEntry> filteredList = new FilteredList<>(observableList);
-    public TelefonBook() {
-        observableList.add(new TelefonEntry("Heidegger", "Phillip", "1234"));
-        observableList.add(new TelefonEntry("John", "Oliver", "5678"));
-        observableList.add(new TelefonEntry("Jordan", "Thomas", "123456"));
+  private final ObservableList<TelefonEntry> observableList = FXCollections.observableList(new ArrayList<>());
+  private final FilteredList<TelefonEntry> filteredList = new FilteredList<>(observableList);
+  public TelefonBook() {
+    observableList.add(new TelefonEntry("Heidegger", "Phillip", "1234"));
+    observableList.add(new TelefonEntry("John", "Oliver", "5678"));
+    observableList.add(new TelefonEntry("Jordan", "Thomas", "123456"));
 
-    }
+  }
 
-    public ObservableList<TelefonEntry> getNumbers() { return observableList; }
+  public ObservableList<TelefonEntry> getNumbers() { return observableList; }
 
 /*
     public List<TelefonEntry> search(Object value) {

@@ -7,24 +7,24 @@ import javafx.scene.layout.AnchorPane;
 
 public class SearchArea {
 
-    private final AnchorPane anchorPane = new AnchorPane();
-    private final TextField searchTextField = new TextField();
-    private final Button searchButton = new Button("Suchen");
+  private final AnchorPane anchorPane = new AnchorPane();
+  private final TextField searchTextField = new TextField();
+  private final Button searchButton = new Button("Suchen");
 
-    public SearchArea() {
-        AnchorPane.setLeftAnchor(searchTextField, 10.0);
-        AnchorPane.setTopAnchor(searchTextField, 10.0);
-        AnchorPane.setRightAnchor(searchTextField, 90.0);
-        AnchorPane.setBottomAnchor(searchTextField, 10.0);
+  public SearchArea() {
+    AnchorPane.setLeftAnchor(searchTextField, 10.0);
+    AnchorPane.setTopAnchor(searchTextField, 10.0);
+    AnchorPane.setRightAnchor(searchTextField, 90.0);
+    AnchorPane.setBottomAnchor(searchTextField, 10.0);
 
-        AnchorPane.setTopAnchor(searchButton, 10.0);
-        AnchorPane.setRightAnchor(searchButton, 10.0);
-        AnchorPane.setBottomAnchor(searchButton, 10.0);
+    AnchorPane.setTopAnchor(searchButton, 10.0);
+    AnchorPane.setRightAnchor(searchButton, 10.0);
+    AnchorPane.setBottomAnchor(searchButton, 10.0);
 
-        anchorPane.getChildren().addAll(searchTextField, searchButton);
-    }
+    anchorPane.getChildren().addAll(searchTextField, searchButton);
+  }
 
-    public Node getPane() {
-        return anchorPane;
-    }
+  public Node getPane() {
+    return anchorPane;
+  }
 }
